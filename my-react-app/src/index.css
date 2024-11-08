@@ -39,11 +39,17 @@
     margin: 0px;
   }
 
-  .welcome-message {
+  .welcome-message .log-in-prompt {
     font-size: 2.5em;
-    background-color: blue;
     color: white;
     padding: 10px;
     border-radius: 5px;
     margin: 0px;
+  }
+  
+  .log-in-prompt {
+    color: red;
+  }
+  .welcome-message {
+    color: blue;
   }
